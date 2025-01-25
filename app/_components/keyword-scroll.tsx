@@ -8,6 +8,8 @@ const KEYWORDS = [
 export function KeywordScroll() {
   return (
     <div className="my-16 gs-keyword-scroll-list overflow-hidden w-full">
+        <p className=" text-2xl font-bold uppercase pb-1 ">Skills</p>
+
       <div className="gs-keyword-scroll-list text-2xl" aria-hidden="true">
         {KEYWORDS.map((row, i) => (
           <p key={i} className="gs-keyword-scroll-list__row tracking-[-0.03em] translate-x-[-0.06em] whitespace-nowrap py-3 inline-block transition text-3xl">

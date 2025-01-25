@@ -4,8 +4,7 @@ const LINKS = [
   { href: '#about', label: 'About' },
   { href: '#experience', label: 'Experience' },
   { href: '#experiments', label: 'Experiments' },
-  // { href: '#certifications', label: 'Certifications' },
-  { href: '#blog', label: 'Certifications' }
+  { href: '#certifications', label: 'Certifications' }
 ]
 
 export function Header() {
