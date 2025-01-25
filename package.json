@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
   "dev": "next dev",
-  "build": "pnpm install --legacy-peer-deps && next build",
+  "build": "next build",
   "start": "next start",
   "lint": "next lint",
   "db:sync": "drizzle-kit generate:sqlite & drizzle-kit push:sqlite",

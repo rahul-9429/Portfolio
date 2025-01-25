@@ -1,7 +1,7 @@
 import { Popover, PopoverContent, PopoverTrigger } from '../../ui/popover';
 import { Button, type ButtonProps } from '../../ui/button';
 // import { BannerOptions } from '../options';
-import { background } from '@gshah.dev/transparency/dist/utils/styles';
+// import { background } from '@gshah.dev/transparency/dist/utils/styles';
 
 import { cn } from '@/lib/utils';
 
@@ -25,7 +25,7 @@ export function ShowMeButton({ ...rest }: ButtonProps) {
       <PopoverContent
         align='end'
         side='top'
-        className={cn('relative, w-[500px] ', background)}
+        className={cn('relative, w-[500px] ', 'bg-white', 'border border-gray-200')}
       >
         <div className='absolute -left-[2.2rem] top-[3.5rem] z-0 flex rotate-[270deg] gap-2 pt-3 opacity-90 drop-shadow-md'>
           <p>Transparency</p>

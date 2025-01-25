@@ -3,7 +3,7 @@ import { Analytics } from '@vercel/analytics/react';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import { Toaster } from '@/components/ui/sonner';
 import { SpeedInsights } from '@vercel/speed-insights/next';
-import CookieConsentProvider from '@gshah.dev/transparency';
+// import CookieConsentProvider from '@gshah.dev/transparency';
 // import Banner from '@/components/consent/banner';
 export default function RootProviders({
   children,
