@@ -26,7 +26,7 @@ export function Blog() {
     >
       <SectionTitle>
         <h2 className="text-sm font-bold uppercase tracking-widest">
-          Experiments
+        Certifications
         </h2>
       </SectionTitle>
       <ScrollArea className="h-[30rem] w-full rounded-md px-3 pt-4">

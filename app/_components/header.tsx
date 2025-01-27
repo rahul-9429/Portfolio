@@ -1,4 +1,6 @@
 import { Socials } from './socials';
+import Image from 'next/image'
+import LinkTree from '@/public/linktree-seeklogo.png'
 
 const LINKS = [
   { href: '#about', label: 'About' },
@@ -25,8 +27,17 @@ export function Header() {
           <a href="/">Santhosh Rahul</a>
         </h1>
         <div className='flex items-center gap-3'>
-          <h2 className={`${orchestration[1]} animate-fade-in mt-3 text-lg font-medium tracking-tight text-secondary sm:text-xl`}>
+          <h2 className={`${orchestration[1]} animate-fade-in mt-3 text-lg font-medium tracking-tight text-secondary sm:text-xl flex gap-6`}>
             Software Engineer
+            <a href="https://linktr.ee/rahull.in" target="_blank" rel="noopener noreferrer">
+          <Image
+            src={LinkTree}
+            alt="Linktree logo"
+            width={20} 
+            height={20}
+          
+          />
+        </a>
           </h2>
         </div>
         <p className={`${orchestration[2]} animate-fade-in text-sm mt-4 max-w-xs leading-normal text-slate-400`}>
