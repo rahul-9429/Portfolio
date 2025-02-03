@@ -23,7 +23,7 @@ export const JOB_EXPERIENCE = [
     id: 1,
     title: 'YUVA Club Lead',
     company: 'YUVA VIIT',
-    date: '2024 - Present',
+    date: '06/2024 - 01/2025',
     description:
       'Leading YUVA VIIT, I’ve had the privilege of working with an amazing team to create events that inspire, educate, and make a difference. Whether it’s organizing hackathons, hosting workshops, or driving environmental initiatives, I love bringing people together to learn, collaborate, and grow. For me, YUVA is more than just a club—it’s a space where ideas come to life, and students can explore their potential while contributing to something bigger. It’s incredibly rewarding to see the impact we make, one event at a time.',
       technologies: [
