@@ -1,9 +1,27 @@
 export const JOB_EXPERIENCE = [
   {
     id: 1,
+    title: 'FullStack intern',
+    company: 'Bytesfer Solutions',
+    date: '04/2025 - Present',
+    description:
+      'During my internship, I gained hands-on experience in full-stack web development by building and maintaining responsive web applications using React.js, Express.js, and Firebase. I collaborated with a remote team to debug issues, implement new features, and deploy solutions effectively. This role gave me practical exposure to real-world development workflows and strengthened my skills in both front-end and back-end technologies.',
+      technologies: [
+        'Firebase',
+        'React',
+        'Tailwind CSS',
+      ], relatedLinks: [
+        {
+          title: 'Bytesfersolutions',
+          url: 'https://bytesfersolutions.com/',
+        },
+      ], 
+  },
+  {
+    id: 1,
     title: 'Web Developer',
     company: 'NEXUS Swarm',
-    date: '2024 - Present',
+    date: '09/2024 -04/2025',
     description:
       'At Nexus, I was actively involved in building webpages and collaborating with a talented team to craft seamless, user-centric digital experiences. I contributed to the design and development of intuitive, responsive interfaces, ensuring both functionality and aesthetic appeal. Working together with team members, we exchanged ideas and expertise, refining the web solutions we created. The experience not only strengthened my technical skills but also deepened my understanding of teamwork and the collaborative nature of web development.',
       technologies: [
@@ -17,6 +35,10 @@ export const JOB_EXPERIENCE = [
           title: 'NEXUS Swarm updates',
           url: 'https://nexus-swarm-updates.vercel.app/',
         },
+        {
+          title: 'NEXUS Swarm ',
+          url: 'https://nexuswarm.vercel.app/',
+        }
       ],
   },
   {
