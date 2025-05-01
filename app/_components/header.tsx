@@ -39,6 +39,7 @@ export function Header() {
         </a>
           </h2>
         </div>
+        <h2 className='mt-2 font-semibold'>#open_to_work</h2>
         <p className={`${orchestration[2]} animate-fade-in text-sm mt-4 max-w-xs leading-normal text-slate-400`}>
         Crafting seamless digital experiences with code, creativity, and purpose.
         </p>

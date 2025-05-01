@@ -4,7 +4,7 @@ export function ViewResumeButton() {
     <div className="mt-12 w-fit p-2 rounded-lg border border-green-500">
       <a
         className="inline-flex items-baseline leading-tight hover:text-green-300 focus-visible:text-teal-300 font-semibold text-slate-200 group/link text-base"
-        href="/"
+        href="https://drive.google.com/file/d/1to0RpJds-AEk42TG6Qg6vr5MdIB7YVIZ/view?usp=drivesdk"
         target="_blank"
         rel="noreferrer noopener"
         aria-label="View Full Résumé (opens in a new tab)"
