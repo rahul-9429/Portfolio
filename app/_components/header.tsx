@@ -28,7 +28,7 @@ export function Header() {
         </h1>
         <div className='flex items-center gap-3'>
           <h2 className={`${orchestration[1]} animate-fade-in mt-3 text-lg font-medium tracking-tight text-secondary sm:text-xl flex gap-6`}>
-            Web Developer
+          An aspiring Software Engineer 
             <a href="https://linktr.ee/rahull.in" target="_blank" rel="noopener noreferrer">
           <Image
             src={LinkTree}

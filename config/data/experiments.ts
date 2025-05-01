@@ -29,6 +29,38 @@ export const EXPERIMENTS: Experiment[] = [
     stars: null,
   },
   {
+    title: 'HerSafe',
+    description:
+      'Developed a real-time crime hotspot detection system with an auto SOS trigger and video evidence storage on blockchain for secure, tamper-proof data. Leveraged Random Forest Classifiers for predictive analytics and used Remix IDE, Truffle Ganache, and Solidity for smart contracts. Integrated IPFS for decentralized storage. Built a clean user interface with React Native to provide intuitive, real-time safety alerts',
+    image: '/hersafe.png',
+    link: 'https://hersafe.vercel.app/',
+    technologies: [
+      'React Native',
+      'BlockChain',
+      'Gemini API',
+      'MongoDB',
+      'Random Forest Classifier',
+      'Node.js',
+    ],
+    stars: null,
+  },
+  {
+    title: 'Ai Enabled Blog',
+    description:
+      'Developed a full stack blog application with the power of ai summarization for blogs and reducing content consuming, creation time by 30%. The application is built using Next.js, Node.js, Express.js, and MongoDB. It features a user-friendly interface for creating, editing, and deleting blog posts. The AI summarization feature allows users to quickly grasp the main points of lengthy articles, enhancing content consumption efficiency. The application is hosted on Vercel for the frontend and backend, ensuring reliable performance and accessibility.',
+    image: '/aiblog.png',
+    link: 'https://ai-blog-two-cyan.vercel.app/',
+    technologies: [
+      'NextJs',
+      'MongoDb',
+      'NodeJs',
+      'ExpressJs',
+      'Gemini API'
+    ],
+    stars: null,
+  },
+ 
+  {
     title: 'Weather_Me',
     description:
       'Weather_Me is a sleek weather app built with React, TypeScript, TanStack Query, and ShadCN UI. It offers real-time weather updates with a clean, responsive design and efficient data fetching for a smooth user experience.',
@@ -43,6 +75,20 @@ export const EXPERIMENTS: Experiment[] = [
       'ShadCn Ui',
       'React Router',
       'Re Charts'
+    ],
+    stars: null,
+  },
+  {
+    title: 'Job Board',
+    description:
+      'Developed a job board platform using React and firebase, ensuring scalability. Integrated pagination for efficien  navigation through job listings, improving the overall user experience. Built a real-time job sharing feature, enabling users to share and apply listings. Designed and developed an admin panel for employers to post, update, and manage job listings.',
+    image: '/job.png',
+    link: 'https://nexus-swarm-updates.vercel.app/',
+    technologies: [
+      'React',
+      'React Router DOM',
+      'Firebase',
+      'React Paginate'
     ],
     stars: null,
   },
