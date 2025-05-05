@@ -1,6 +1,6 @@
 const KEYWORDS = [
   'React.js', 'React Native', 'Typescript', 'Javascript',
-  'Node.js', 'Express.js', 'Next.js', 'Python', 'C++',
+  'Node.js', 'Express.js', 'Next.js', 'Python', 'C++', 'Unix', 'Aws'
   'REST APIs', 'TailwindCss', 'SQL', 'Firebase', 'MongoDB',
   'Gemini API', 'GIT', 'HTML5', 'CSS3'
 ];
