@@ -12,18 +12,22 @@ export function About() {
       <SectionTitle>
         <h2 className='text-sm font-bold uppercase tracking-widest'>About</h2>
       </SectionTitle>
-      <div className='max-w-[60ch] text-slate-400'>
-        <p className='mb-4 text-pretty'>
-          Hi, I&apos;m Rahul, a passionate web developer who loves creating intuitive and scalable digital experiences. With expertise in React, TypeScript, and modern UI frameworks like ShadCN, I specialize in crafting seamless, high-performing web applications. My projects often feature dynamic functionality and thoughtful user interfaces, blending creativity with technical precision.
-        </p>
-        <p className='mb-4 text-pretty'>
-          Beyond coding, I&apos;m an enthusiastic leader and collaborator. As the Lead of YUVA Club, I’ve organized events that merge technology with community impact, including hackathons and workshops. I also enjoy sharing knowledge!
-        </p>
-        <p className='text-pretty'>
-          I thrive on solving challenges and constantly improving, whether it’s through hands-on experience, hosting events, or exploring new tools and frameworks. When I&apos;m not building web apps, I’m likely designing logos for websites or working on ideas that merge technology and design.
-        </p>
-        <p className='mb-4 text-pretty'>Let’s connect and bring your vision to life!</p>
-      </div>
+    <div className='max-w-[60ch] text-slate-400'>
+  <p className='mb-4 text-pretty'>
+    Hi, I&apos;m Rahul — a full-stack developer passionate about building scalable and intuitive digital products. I work with technologies like Next.js, TypeScript, TailwindCSS, and ShadCN to deliver fast, accessible, and visually polished web experiences. I enjoy bridging the gap between design and engineering, ensuring each product is functional and user-focused.
+  </p>
+  <p className='mb-4 text-pretty'>
+    My work spans across AI, blockchain, and real-time web systems. Projects like <strong>HerSafe</strong> (a safety app using ML and blockchain) and <strong>AI Blog</strong> (an AI-assisted writing tool with Gemini API) reflect my interest in solving meaningful problems through code. I’m comfortable working across the stack and adapting quickly to new libraries, tools, or frameworks.
+  </p>
+  <p className='mb-4 text-pretty'>
+    Outside of development, I lead the <strong>YUVA VIIT</strong> chapter, where I’ve organized tech events, hackathons, and workshops that bring students closer to real-world innovation. I believe in teamwork, constant learning, and using tech for impact.
+  </p>
+  <p className='text-pretty'>
+    I’m always exploring new ideas — whether it’s experimenting with AI tools, contributing to projects, or helping a vision come to life. Let’s build something impactful together.
+  </p>
+</div>
+
+
       <ViewResumeButton />
     </section>
   );
