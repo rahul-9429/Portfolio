@@ -54,7 +54,7 @@ const SOCIALS: Social[] = [
   },
   {
     title: 'Instagram',
-    href: 'https://instagram.com/rahu1_k',
+    href: 'https://instagram.com/rahulllll.in',
     icon: {
       viewBox: '0 0 1000 1000',
       path: {

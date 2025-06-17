@@ -26,8 +26,6 @@ export function About() {
     I’m always exploring new ideas — whether it’s experimenting with AI tools, contributing to projects, or helping a vision come to life. Let’s build something impactful together.
   </p>
 </div>
-
-
       <ViewResumeButton />
     </section>
   );
