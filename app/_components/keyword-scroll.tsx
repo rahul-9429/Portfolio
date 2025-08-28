@@ -1,9 +1,12 @@
 const KEYWORDS = [
-  'React.js', 'React Native', 'Typescript', 'Javascript',
-  'Node.js', 'Express.js', 'Next.js', 'Python', 'C++',
-  'REST APIs', 'TailwindCss', 'SQL', 'Firebase', 'MongoDB',
-  'Gemini API', 'GIT', 'HTML5', 'CSS3'
+  'C', 'C++', 'Python', 'SQL', 'JavaScript', 'TypeScript',
+  'HTML5', 'CSS3', 'Unix Shell', 'Linux',
+  'React', 'Next.js', 'Node.js', 'Express.js', 'Flask', 'Tailwind CSS',
+  'Git', 'GitHub', 'Postman',
+  'MongoDB', 'Firebase',
+  'AWS', 'Vercel'
 ];
+
 
 export function KeywordScroll() {
   return (
@@ -14,7 +17,14 @@ export function KeywordScroll() {
         {KEYWORDS.map((keyword, i) => (
           <span
             key={i}
-            className="px-4 py-2 rounded-lg border border-white/10 bg-white/10 backdrop-blur-md shadow-md text-white transition-transform duration-300 hover:-translate-y-1"
+             className="
+    px-4 py-2 rounded-lg
+    border border-border
+    bg-card/70 backdrop-blur-md
+    shadow-md text-foreground
+    transition-transform duration-300
+    hover:-translate-y-1
+  "
           >
             {keyword}
           </span>

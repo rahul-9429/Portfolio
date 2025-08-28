@@ -1,9 +1,28 @@
 export const JOB_EXPERIENCE = [
+    {
+    id: 1,
+    title: 'Freelance Backend Developer',
+    company: 'Competitive Hacks',
+    date: '7/2025 - 8/2025',
+    description:
+      'Designed and developed a secure and scalable backend for a full-stack quiz application. Implemented Next.js API routes with JWT-based authentication (login & registration) and integrated MongoDB Atlas for persistent storage. Built features for CSV/Excel-based quiz question uploads, user access control (paid vs free users), and seamless quiz delivery. Focused on production-level practices, including modular API design, token security, and database optimization, ensuring reliability and maintainability for real-world usage.',
+      technologies: [
+        'DBMS',
+        'MongoDB',
+        'APIs',
+        'NextJS'
+      ], relatedLinks: [
+        {
+          title: 'Competitive Hacks',
+          url: 'https://bytesfersolutions.com/',
+        },
+      ], 
+  },
   {
     id: 1,
     title: 'FullStack intern',
     company: 'Bytesfer Solutions',
-    date: '04/2025 - Present',
+    date: '4/2025 - 5/2025',
     description:
       'During my internship, I gained hands-on experience in full-stack web development by building and maintaining responsive web applications using React.js, Express.js, and Firebase. I collaborated with a remote team to debug issues, implement new features, and deploy solutions effectively. This role gave me practical exposure to real-world development workflows and strengthened my skills in both front-end and back-end technologies.',
       technologies: [
@@ -40,6 +59,24 @@ export const JOB_EXPERIENCE = [
           url: 'https://nexuswarm.vercel.app/',
         }
       ],
+  },
+    {
+    id: 1,
+    title: 'Freelance Web Developer',
+    company: 'Fiksu Global Solutions',
+    date: '04/2025 - 04/2025',
+    description:
+      'Developed and deployed responsive, user-friendly web applications tailored to client requirements. Worked on frontend UI/UX design and backend functionality, ensuring seamless performance across devices. Collaborated with client to refine requirements and deliver scalable solutions on time. Focused on clean code practices, optimized performance, and modern tech stacks to provide production-ready deliverables.',
+      technologies: [
+        'Next.js',
+        'Figma',
+        'NodeMailer',
+      ], relatedLinks: [
+        {
+          title: 'Fiksu Global Solutions',
+          url: 'https://www.fiksuglobalsolutions.com/',
+        },
+      ], 
   },
   {
     id: 1,
