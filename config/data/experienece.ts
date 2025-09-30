@@ -14,7 +14,7 @@ export const JOB_EXPERIENCE = [
       ], relatedLinks: [
         {
           title: 'Competitive Hacks',
-          url: 'https://bytesfersolutions.com/',
+          url: 'https://www.competitivehacks.in/',
         },
       ], 
   },
