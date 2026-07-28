@@ -1,4 +1,31 @@
 export const JOB_EXPERIENCE = [
+  {
+    id: 6,
+    title: 'Founding Full-Stack Engineer',
+    company: 'XyRo.ai',
+    date: 'Jan 2026 - Present · Remote',
+    description:
+      "As a Full Stack Engineer at XyRo.ai, I develop AI-driven products and scalable web applications used in production. I've built intelligent CRM search, integrated third-party services including Gmail, Zoho CRM, Google Maps Places, and Firebase, and delivered an ERP platform for a UAE client. Working across the entire stack, I focus on building reliable, user-friendly systems that solve real business problems. I collaborate closely with the product team to design, build, and ship features from idea to production. My work spans backend, frontend development, API integrations, and AI-powered workflows, ensuring scalable and maintainable solutions for customers."
+,
+    technologies: [
+      'FastAPI',
+      'PostgreSQL',
+      'SQLAlchemy',
+      'Redis',
+      'Next.js',
+      'TypeScript',
+      'Tailwind CSS',
+      'Redux',
+      'OpenAI Agents SDK',
+      'Firebase FCM',
+    ],
+    relatedLinks: [
+      {
+        title: 'XyRo.ai',
+        url: 'https://xyro.ai',
+      },
+    ],
+  },
     {
     id: 1,
     title: 'Freelance Backend Developer',
@@ -84,7 +111,7 @@ export const JOB_EXPERIENCE = [
     company: 'YUVA VIIT',
     date: '06/2024 - 01/2025',
     description:
-      'Leading YUVA VIIT, I’ve had the privilege of working with an amazing team to create events that inspire, educate, and make a difference. Whether it’s organizing hackathons, hosting workshops, or driving environmental initiatives, I love bringing people together to learn, collaborate, and grow. For me, YUVA is more than just a club—it’s a space where ideas come to life, and students can explore their potential while contributing to something bigger. It’s incredibly rewarding to see the impact we make, one event at a time.',
+      'Leading YUVA VIIT, I’ve had the privilege of working with an amazing team to create events that inspire, educate, and make a difference. Whether it’s organizing hackathons, hosting workshops, or driving environmental initiatives, I love bringing people together to learn, collaborate, and grow. For me, YUVA is more than just a club - it’s a space where ideas come to life, and students can explore their potential while contributing to something bigger. It’s incredibly rewarding to see the impact we make, one event at a time.',
       technologies: [
         'Team management',
         'Event management',

@@ -9,12 +9,12 @@ import Script from 'next/script';
 export const metadata: Metadata = {
   title: {
     default: 'Santhosh Rahul',
-    template: '%s | Freelance Web Developer ',
+    template: '%s | Full-Stack Software Engineer',
   },
   description:
-    'Help brands scale their web presence with freelance web development, UX design, growth marketing, branding & tech consulting',
+    'Santhosh Rahul is a full-stack software engineer specializing in Next.js, TypeScript, and scalable web systems, open to full-time opportunities in the UAE, India, and remote.',
   keywords:
-    'Technology Consultant, Freelance Developer, Web Developer, Web Designer, Web Development, Search Engine Optimization, UX Design, Clifton, NJ, New Jersey, E-commerce Website Development, WordPress Development, Landing Page Design, Shopify Development, Hoboken, Montclair, Parsippany.',
+    'Santhosh Rahul, Full Stack Developer, Software Engineer, Next.js Developer, React Developer, TypeScript, Web Developer UAE, Software Engineer Dubai, Software Engineer Abu Dhabi, Software Developer UAE, Open to Relocate, Remote Software Engineer, India.',
 };
 
 export default function RootLayout({
